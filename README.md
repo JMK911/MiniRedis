@@ -1,5 +1,5 @@
 # MiniRedis
-实现的主要功能以及接口如下：
+实现的主要功能以及接口如下：<br>
 1.insertElement <br>
 2.deleteElement <br>
 3.searchElement <br>
