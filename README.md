@@ -10,7 +10,7 @@
 
 #
 跳表的结构示意图如下:<br>
-![image](https://user-images.githubusercontent.com/73992103/196970400-c010a560-ac8e-4c8e-9448-2030f202bf2d.png)
+![image](https://user-images.githubusercontent.com/73992103/196988027-6b841097-01e5-4d4f-91fb-334a2ac623e7.png)
 
 #
 跳表的核心解释：<br>
