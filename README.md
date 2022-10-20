@@ -8,6 +8,7 @@
 6.loadFile <br>
 7.size <br>
 
-# 跳表的结构示意图如下
+#
+跳表的结构示意图如下<br>
 ![image](https://user-images.githubusercontent.com/73992103/196970400-c010a560-ac8e-4c8e-9448-2030f202bf2d.png)
 
