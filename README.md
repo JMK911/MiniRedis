@@ -1,12 +1,12 @@
 # MiniRedis
 实现的主要功能以及接口如下：<br>
-1.insertElement <br>
-2.deleteElement <br>
-3.searchElement <br>
-4.displayList <br>
-5.dumpFile <br>
-6.loadFile <br>
-7.size <br>
+1.insertElement：插入元素（键值对） <br>
+2.deleteElement： 删除元素<br>
+3.searchElement：根据key搜索元素 <br>
+4.displayList：打印跳表 <br>
+5.dumpFile：持久化操作，数据落盘 <br>
+6.loadFile：加载文件数据，以跳表结构存储在内存 <br>
+7.size：跳表的大小（键值对数目） <br>
 
 #
 跳表的结构示意图如下:<br>
