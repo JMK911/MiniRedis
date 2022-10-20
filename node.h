@@ -10,16 +10,24 @@ public:
     Node(K k, V v, int);
     ~Node();
 
+    //获取节点的key
     K getKey() const;
+
+    //获取节点的value
     V getValue() const;
+
+    //重设节点的value
     void setValue(V v);
 
+    //forward数组存储每一层索引中，节点的下一个指向
     Node<K, V> **forward;
-    //int node_level;
 
 private:
+    //节点的值不暴露，只允许通过接口获取、设置
     K key;
     V value;
+
+    //节点索引的层数，控制节点最高出现在第几层索引，并用于forward数组的初始化
     int node_level;
 };
 
@@ -51,4 +59,5 @@ template<typename K,typename V>
 void Node<K,V>::setValue(V v){
     this->value = v;
 }
+
 #endif
